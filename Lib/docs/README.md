@@ -1,5 +1,5 @@
 # C/C++ 库的创建和使用
-## 一、静态库的创建和使用(based on g++ command)
+## 一、静态库的创建和使用(based on ar command)
 ### 1. 将源代码编译为目标文件(.o结尾)
 ```bash
 g++ -c src/math.cpp -o build/obj/math.o
