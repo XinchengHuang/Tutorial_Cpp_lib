@@ -31,8 +31,8 @@
 ## 一、静态库的创建和使用
 ### 1. 将源代码编译为目标文件(.o)
 ```bash
-g++ -c ./src/swap.cpp -o build/obj/swap.o -I ./include/
-g++ -c ./src/bubblesort.cpp -o build/obj/bubblesort.o -I ./include/
+g++ -c ./src/swap.cpp -o ./build/obj/swap.o -I ./include/
+g++ -c ./src/bubblesort.cpp -o ./build/obj/bubblesort.o -I ./include/
 ```
 
 > *说明*:  
